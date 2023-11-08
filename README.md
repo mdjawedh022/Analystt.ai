@@ -21,3 +21,4 @@ The project structure is organized as follows:
    ```bash
    git clone :-https://github.com/mdjawedh022/analystt_ai
    cd lerna-monorepo
+   npm run start

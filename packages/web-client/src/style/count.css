@@ -1,0 +1,71 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  box-shadow: tomato 0px 5px 15px;
+  width: 30%;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.count h1 {
+  color: tomato;
+}
+.count div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 1.5rem;
+}
+.count div button {
+  border: none;
+  outline: none;
+  background-color: tomato;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1050px) {
+  .count {
+    width: 40%;
+    margin: 4rem auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+     .count {
+    width: 50%;
+    margin: 4rem auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .count {
+    width: 85%;
+    margin: 4rem auto;
+  }
+}
+
+@media screen and (max-width: 376x) {
+      .count {
+    width: 90%;
+    margin: 4rem auto;
+  }
+}
+
+@media screen and (max-width: 321px) {
+       .count {
+    width: 95%;
+    margin: 4rem auto;
+  }
+  .count div {
+  gap: 5px;
+  margin-top: 1.5rem;
+}
+}

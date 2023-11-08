@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '7.4.2',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v7.4.2
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath D:\analystt_ai
+4 error SyntaxError: D:\analystt_ai\packages\frontend\package.json: Unexpected token } in JSON at position 357
+4 error     at JSON.parse (<anonymous>)
+4 error     at _readFile (D:\analystt_ai\node_modules\jsonfile\index.js:25:16)
+4 error     at async Promise.all (index 0)
+4 error     at async createProjectGraphWithPackages (D:\analystt_ai\node_modules\lerna\dist\index.js:1337:18)
+4 error     at async detectProjects (D:\analystt_ai\node_modules\lerna\dist\index.js:1457:24)
